@@ -20,7 +20,7 @@ const Footer = () => (
           <h4 className="text-sm font-semibold text-foreground mb-3">Контакты</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li>info@inventory.app</li>
-            <li>+7 (999) 123-45-67</li>
+            <li>+ 996 995 052 569</li>
           </ul>
         </div>
       </div>

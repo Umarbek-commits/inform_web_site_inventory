@@ -36,17 +36,23 @@ const Header = () => {
 
         <div className="hidden md:flex items-center gap-3">
           <button
-            onClick={() => console.log("Войти")}
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors px-4 py-2"
-          >
-            Войти
-          </button>
+  onClick={() =>
+    window.location.href =
+      "https://inventory-c1d9g0rd5-sidikovoatillo44-2899s-projects.vercel.app?_vercel_share=Whzpv7EUH8wNrgsKnbTkKJQZRdJ82L2S"
+  }
+  className="text-sm text-muted-foreground hover:text-foreground transition-colors px-4 py-2"
+>
+  Войти
+</button>
           <button
-            onClick={() => console.log("Зарегистрироваться")}
-            className="text-sm bg-primary text-primary-foreground px-5 py-2 rounded-2xl hover:scale-105 transition-transform duration-200 glow-primary"
-          >
-            Зарегистрироваться
-          </button>
+  onClick={() =>
+    window.location.href =
+      "https://inventory-c1d9g0rd5-sidikovoatillo44-2899s-projects.vercel.app/register"
+  }
+  className="text-sm bg-primary text-primary-foreground px-5 py-2 rounded-2xl hover:scale-105 transition"
+>
+  Зарегистрироваться
+</button>
         </div>
 
         <button className="md:hidden text-foreground" onClick={() => setMobileOpen(!mobileOpen)}>

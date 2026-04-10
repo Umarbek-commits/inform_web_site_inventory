@@ -45,20 +45,7 @@ const Hero = () => (
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <button
-              onClick={() => console.log("Начать бесплатно")}
-              className="group flex items-center gap-2 bg-primary text-primary-foreground px-7 py-3.5 rounded-2xl font-medium hover:scale-105 transition-transform duration-200 glow-primary text-sm"
-            >
-              Начать бесплатно
-              <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-            </button>
-            <button
-              onClick={() => console.log("Смотреть демо")}
-              className="flex items-center gap-2 glass px-7 py-3.5 rounded-2xl font-medium text-foreground hover:scale-105 transition-transform duration-200 text-sm"
-            >
-              <Play size={16} />
-              Смотреть демо
-            </button>
+          
           </div>
         </motion.div>
 
