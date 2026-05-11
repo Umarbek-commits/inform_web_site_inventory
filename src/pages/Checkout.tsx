@@ -25,7 +25,7 @@ const plans = [
 const paymentMethods = [
   "Visa / Mastercard",
   "Mbank",
-  "O!Money",
+  "O!Bank",
   "Элкарт",
   "PayPal",
 ];
